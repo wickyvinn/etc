@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-def getRating(soup): # as stated exactly
+def getRating(soup):
 	biz_Rating = soup.find("div", {"id": "bizRating"})
 	rating_object = biz_Rating.find('div', attrs={'class': 'rating'})
 	get_i_attrs = rating_object.find('i')
