@@ -8,4 +8,4 @@ pip install beautifulsoup4
 
 ###To Run:
 ```bash
-python yelp_scraper.py
+python scrape_yelp.py
